@@ -1,0 +1,337 @@
+.topnav {
+    background-color:  #00001a;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #e6e6ff;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #0000b3;
+    color: white;
+  }
+
+
+  /* header styling */
+  .header {
+    padding: 60px;
+    text-align: center;
+    background-image: url(bg2.jfif);
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+    
+  }
+
+  .header_img {
+    background-size: cover !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    background-image: url(me_pic2.jpg);
+    
+  }
+
+  .header h1{
+    font-family: 'Courgette' cursive;
+  }
+
+  /* social media icons in header */
+  .social_media ul li i{
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+  }
+
+  .social_media ul{
+      list-style: none;
+  }
+  .social_media li{
+      display: inline;
+  }
+
+
+  /* introduction */
+
+  .intro{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .intro h1{
+      
+      font-family: 'Courgette', cursive;
+
+      
+  }
+
+  .intro p{
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 18px;
+  }
+
+
+/* work experience */
+.experience .card{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: #00001a;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.vertical {
+    border-left: 6px solid black;
+    height: 200px;
+    position:absolute;
+    left: 50%;
+}
+
+
+.experience h1{
+  font-family: 'Merriweather', serif;
+  padding-bottom: 2px;
+}
+
+.experience h3{
+  font-family: 'Baloo Chettan 2', cursive;
+}
+
+
+.experience .card .location_details{
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 18px;
+  padding-bottom: 5px;
+  color: #595959;
+
+}
+
+.experience .card p{
+  font-family: 'Baloo Chettan 2', cursive;
+  font-style: italic;
+  font-size: 15px;
+  color: #737373;
+}
+
+/* education */
+
+.edu_card{
+  margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: #00001a;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+
+}
+.edu_card .edu_time{
+  
+  float: left;
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 80px;
+  width: 120px;
+}
+
+.edu_card .edu_details{
+    
+    display: inline-block;
+    margin:0 auto;
+    width:400px;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 17px;
+    font-style: italic;
+    
+}
+
+.education h1{
+  font-family: 'Merriweather', serif;
+}
+
+
+/* publication section styling */
+
+.publication h1{
+  font-family: 'Merriweather', serif;
+  padding-bottom: 2px;
+}
+
+.paper_title{
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 17px;
+  padding-bottom: 5px;
+
+}
+
+.publication .card{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  border: #00001a;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding-left: 20px;
+
+}
+
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: #00001a; 
+  color: white; 
+  cursor: pointer; 
+  padding: 10px; 
+  border-radius: 10px; 
+  font-size: 15px; 
+}
+
+#myBtn:hover {
+  background-color: #555; 
+}
+
+
+/* project styling */
+
+.project h1{
+  font-family: 'Merriweather', serif;
+
+}
+
+.project_card{
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  border: #00001a;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  height: 300px;
+  align-items: center;
+}
+
+.stuff{
+  list-style: none;
+  margin-left: 10px;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  padding-top: 10px;
+  position: absolute;
+  bottom: 30px;
+}
+
+.stuff li{
+  display: inline;
+  margin-right: 10px;
+}
+
+.project_card .pjt_details{
+  margin-left: 10px;
+
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.project-title{
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+
+}
+
+.pjt-details{
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 17px;
+  color: #737373
+}
+
+
+/* skills */
+
+.name-left{
+  float: left;
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 20px;
+}
+
+.value-right{
+  float: right;
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 20px;
+}
+
+.progress {
+  width: 100%;
+  float: left;
+  height: 5px;
+  box-shadow: none;
+}
+
+.progress-bar {
+  background-color: #2F3C4F;
+  height: 5px;
+  display: block;
+  box-shadow: none;
+}
+.progress-bar.progress-bar-1 {
+  background-color: #2980b9 !important;
+}
+.progress-bar.progress-bar-2 {
+  background-color: #c0392b !important;
+}
+.progress-bar.progress-bar-3 {
+  background-color: #d35400 !important;
+}
+.progress-bar.progress-bar-4 {
+  background-color: #8e44ad !important;
+}
+.progress-bar.progress-bar-5 {
+  background-color: #27ae60 !important;
+}
+
+.progress-wrap {
+  width: 100%;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.progress-wrap h3{
+  font-size: 20px;
+}
