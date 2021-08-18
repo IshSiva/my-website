@@ -1,9 +1,10 @@
+
+/* navbar */
 .topnav {
     background-color:  #00001a;
     overflow: hidden;
   }
   
-  /* Style the links inside the navigation bar */
   .topnav a {
     float: right;
     color: white;
@@ -13,18 +14,19 @@
     font-size: 17px;
   }
   
-  /* Change the color of links on hover */
+  
   .topnav a:hover {
     background-color: #e6e6ff;
     color: black;
   }
   
-  /* Add a color to the active/current link */
+  
   .topnav a.active {
     background-color: #0000b3;
     color: white;
   }
 
+  
 
   /* header styling */
   .header {
