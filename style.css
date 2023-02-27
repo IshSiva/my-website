@@ -79,7 +79,7 @@
 
   .intro{
     margin: auto;
-    width: 50%;
+    width: 75%;
     padding: 10px;
   }
 
@@ -99,7 +99,7 @@
 /* work experience */
 .experience .card{
     margin: auto;
-    width: 50%;
+    width: 80%;
     padding: 10px;
     border: #00001a;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -144,7 +144,7 @@
 
 .edu_card{
   margin: auto;
-    width: 50%;
+    width: 80%;
     padding: 10px;
     border: #00001a;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -159,14 +159,14 @@
   font-size: 20px;
   margin-left: 10px;
   margin-right: 80px;
-  width: 120px;
+  width: 250px;
 }
 
 .edu_card .edu_details{
     
     display: inline-block;
     margin:0 auto;
-    width:400px;
+    width:700px;
     font-family: 'Baloo Chettan 2', cursive;
     font-size: 17px;
     font-style: italic;
@@ -194,7 +194,7 @@
 
 .publication .card{
   margin: auto;
-  width: 50%;
+  width: 80%;
   padding: 10px;
   border: #00001a;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -250,7 +250,7 @@
   margin: 0;
   padding: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
-  padding-top: 5x`px;
+  padding-top: 5 px;
   align-items: center;
   bottom: 10px;
   
