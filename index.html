@@ -67,18 +67,17 @@
 
         <br/><br/><br/>
         <div class="intro">
-            <h1 style="font-family: 'Courgette' cursive">Hi I am Ishwarya!</h1>
+            <h1 style="font-family: 'Courgette' cursive">Hi, I am Ishwarya!</h1>
             <p>I am pursuing my Masters degree in Computer Science with a specialization in Machine Learning at the Georgia Institute of Technology. </p>
             <p>I am working as a Student Researcher in the domain of ML+Systems in the Georgia Tech Database Group, 
                 advised by <a href="https://faculty.cc.gatech.edu/~jarulraj/" style="color: blue;">Dr Joy Arulraj</a>. </p>
 
             </p>
             <p>I have completed my Bachelor's in Computer Science and Engineering from College of Engineering Guindy, Anna University, Chennai. </p>
-                <p>I love to work with AI technologies like Natural Language Processing and Computer Vision. My primary area of interest is Multimodal AI. 
-                My aim is to work on building products that harness the power of AI and help to improve the lives of people. 
+                <p>I love to work with AI technologies like Natural Language Processing and GraphML. My aim is to work on building products that harness the power of AI and help to improve the lives of people. 
             </p>
 			<p>I love to play chess, table tennis and read books.</p>
-            <p> <strong>I am currently searching for internship opportunities in the US and am interested in connecting with recruiters to discuss about open positions</strong></p>
+            <!-- <p> <strong>I am currently searching for internship opportunities in the US and am interested in connecting with recruiters to discuss about open positions</strong></p> -->
         </div>
 
         <div class="experience" id="experience">
@@ -101,9 +100,13 @@
                 <div class="location_details"><i class="fa fa-calendar" aria-hidden="true"></i> August 2022 - Present</div>
                 <ul>
                     <li>Working on project EVA (Exploratory Video Analytics) - A database tailored for video analytics. It enables users to query visual data by providing a simple SQL-like interface.
-                        Advised by Dr.Joy Arulraj</li>
-                    <li>I primarily work on using Deep Learning techniques to build new features for Eva. Built UDFs to process actions and identify American Sign Language.
-                         Also, enhancing existing architecture to support advanced queries and operations.
+                        </li>
+                    <li>I primarily work on using Deep Learning techniques to build new features for Eva. Built the UDF that integrates OpenAI api with EVA. Also worked on supporting action recognition and 
+                        American Sign Language (ASL) identification with Eva.     
+                    </li>
+                    <li>
+                        Implemented the Decorators design pattern for creating UDFs in EVA. This will simplify the process of UDF creation and allow the user to 
+                        impose data constraints.
                     </li>
                 </ul> 
             </div>
@@ -205,44 +208,75 @@
 
         <br/><br/>
 
-        <div id="publications" class="publication">
-            <h1 style="text-align: center;">Publications</h1>
-            <br>
-            <div class="card">
-                <div class="paper_title">VisBuddy - A Smart Wearable Assistant for the Visually Challenged</div>
-                
-                
-                <a href="https://arxiv.org/abs/2108.07761" style="text-decoration:none;"><i class="fa fa-link" aria-hidden="true"></i> arxiv</a>
-            </div>
-            
-            <div class="card">
-                <div class="paper_title">Categorization of YouTube Videos by Video Sampling and Keyword Processing</div>
-                
-                <a href="https://ieeexplore.ieee.org/document/9182158" style="text-decoration:none;"><i class="fa fa-link" aria-hidden="true"></i> IEEE</a>
-            </div>
-
-        </div>
-        <br/><br/><br/>
-
         <div id= "projects" class="project">
 
             
             <h1 style="text-align: center;">Projects</h1>
             <br/><br/>
 
+
             <div class="project_card">
-                <span class="project-title">Emotion Classification from Text</span> (Under Progress)
+                <span class="project-title">TransRecG: Transformer Based Sequential Recommendation System with Graph Embeddings</span> (2023)
+                <a href="https://github.com/IshSiva/TransRecG" style="color: black;"><i style="margin-right: 10px; font-size: 20px; " class="fa fa-github"></i></a>
+                 
+                <br/><br/>
+                <span class="pjt-details">
+                    <ul>
+                        <li>Sequential Transformer-based recommender system augmented using a Knowledge Graph to improve the recommendations.</li>
+                        <li>This model captures both the higher order connectivity information, and the sequential order with which the users interact
+                            with the movies and this improves the performance.</li>
+                        <li>This model uses a RGCN-based NGCF model trained on a user-movie-attribute Knowledge Graph to capture the higher order connectivity 
+                            features and a Behavioral Sequence Transformer to capture the user's sequential information.</li>
+                        
+                    </ul>
+                </span>
+                <ul class="stuff">
+                    <li><i class="fa fa-tag"></i> NLP</li>
+                    <li><i class="fa fa-tag"></i> GraphML</li>
+                    <li><i class="fa fa-tag"></i> Recommendation Systems</li>
+                    
+                    
+
+                </ul>
+            </div>
+
+            <div class="project_card">
+                <span class="project-title">BERTG: Graph Augmented Transformer for Text Classification</span> (2023)
+                <a href="https://github.com/IshSiva/BERTG" style="color: black;"><i style="margin-right: 10px; font-size: 20px; " class="fa fa-github"></i></a>
+                 
+                <br/><br/>
+                <span class="pjt-details">
+                    <ul>
+                        <li>Augment Transformer-based language models with Graph Neural Networks </li>
+                        <li>It combines the local structural relationship between input documents learnt by the GNN with the contextual embeddings
+                            learnt by transformer-based models.</li>
+                        <li>It also achieves a better performance on a smaller dataset size.</li>
+                        
+                    </ul>
+                </span>
+                <ul class="stuff">
+                    <li><i class="fa fa-tag"></i> NLP</li>
+                    <li><i class="fa fa-tag"></i> GraphML</li>
+                    
+                    
+                    
+
+                </ul>
+            </div>
+
+
+            <div class="project_card">
+                <span class="project-title">Emotion Classification from Text</span> (2023)
                 <br/><br/>
                 <span class="pjt-details">
                     <ul>
                         <li>Adviced by <a href="http://sonify.psych.gatech.edu/~walkerb/" style="color: blue;">Dr.Bruce Walker</a></li>
                         <li>
-                            Building an AI-powered mental-health monitoring system using which a subject can perform daily check-ins. 
-                            NLP and Computer Vision algorithms will be utilized to analyze the data obtained from these check-ins, and the resulting analytics
-                            will be provided to a psychologist. 
+                            Building an AI-powered mental-health monitoring system using which a person can perform daily check-ins.
                         </li>
                         <li>
-                            I work in the Voice team and am working on using NLP and Audio analytics techniques to analyze the voice from the daily check-ins.
+                            I worked in the Voice team and used NLP and Audio analytics techniques to analyze the user’s response from the daily
+check-ins. For text-based emotion analysis, I am using Transformer models like T5 etc.
                         </li>
                         <li>
                             This project is being developed in partnership with <a href="https://www.linkedin.com/company/primaface">Primaface</a>
@@ -257,9 +291,10 @@
             </div>
 
             <div class="project_card">
-                <span class="project-title">Multimodal Sarcasm Detection</span> 
-                <a href="https://m-a-c-e.github.io/Machine-Learning/" style="color: black;"><i style="margin-right: 10px; font-size: 20px; " class="fa fa-github"></i></a>
+                <span class="project-title">Multimodal Sarcasm Detection</span> (2022 - CS7641 Coursework)
                 (2022)
+                <a href="https://m-a-c-e.github.io/Machine-Learning/" style="color: black;"><i style="margin-right: 10px; font-size: 20px; " class="fa fa-github"></i></a>
+                
                 <br/><br/>
                 <span class="pjt-details">
                     <ul>
@@ -279,8 +314,9 @@
 
             <div class="project_card">
                 <span class="project-title">Data Visualization - Global Warming Dashboard </span> 
-                <a href="https://www.youtube.com/watch?v=xavoIDbF0QU" style="color: black;"><i style="margin-right: 10px; font-size: 20px; " class="fa fa-youtube-play"></i></a>
                 (2022 - CS6730 Coursework)
+                <a href="https://www.youtube.com/watch?v=xavoIDbF0QU" style="color: black;"><i style="margin-right: 10px; font-size: 20px; " class="fa fa-youtube-play"></i></a>
+                
                 <br/><br/>
                 <span class="pjt-details">
                     <ul>
@@ -332,7 +368,7 @@
             
             <br/>
     
-            <div class="project_card">
+            <!-- <div class="project_card">
                 <span class="project-title">Code Optimizer Python</span> 
                 <a href="https://github.com/IshSiva/Code-Optimizer-Python" style="color: black;"><i style="margin-right: 10px; font-size: 20px; " class="fa fa-github"></i></a>
                 (2020)
@@ -352,7 +388,7 @@
                 </ul>
             </div>
 
-            <br/>
+            <br/> -->
 
             <div class="project_card">
                 <span class="project-title">Paper Pro</span>
@@ -378,6 +414,25 @@
   
         <br/><br/><br/>
 
+        <div id="publications" class="publication">
+            <h1 style="text-align: center;">Publications</h1>
+            <br>
+            <div class="card">
+                <div class="paper_title">VisBuddy - A Smart Wearable Assistant for the Visually Challenged</div>
+                
+                
+                <a href="https://arxiv.org/abs/2108.07761" style="text-decoration:none;"><i class="fa fa-link" aria-hidden="true"></i> arxiv</a>
+            </div>
+            
+            <div class="card">
+                <div class="paper_title">Categorization of YouTube Videos by Video Sampling and Keyword Processing</div>
+                
+                <a href="https://ieeexplore.ieee.org/document/9182158" style="text-decoration:none;"><i class="fa fa-link" aria-hidden="true"></i> IEEE</a>
+            </div>
+
+        </div>
+        <br/><br/><br/>
+
         
         <div class="skills" id="skills">
             <h1 style="text-align: center;">Skills</h1>
@@ -394,7 +449,7 @@
 						</div>
 					</div>
 					<div class="progress-wrap">
-						<h3><span class="name-left">Tensorflow v2</span><span class="value-right">90%</span></h3>
+						<h3><span class="name-left">PyTorch, TensorFlow</span><span class="value-right">90%</span></h3>
 						<div class="progress">
 						  <div class="progress-bar progress-bar-2 progress-bar-striped active" role="progressbar"
 						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
@@ -411,7 +466,7 @@
 					</div>
 
                     <div class="progress-wrap">
-						<h3><span class="name-left">ML Libraries: Pandas, Scikit Learn, Keras, NLTK, LIME, Numpy, OpenCV</span><span class="value-right">80%</span></h3>
+						<h3><span class="name-left">ML Libraries: Pandas, Scikit-Learn, Keras, NLTK, LIME, NumPy, OpenCV</span><span class="value-right">80%</span></h3>
 						<div class="progress">
 						  <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
 						  aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:70%">
@@ -436,7 +491,7 @@
 					</div>
 
                     <div class="progress-wrap">
-						<h3><span class="name-left">Web Development: Django, Flask</span><span class="value-right">75%</span></h3>
+						<h3><span class="name-left">Web Development: Django, Flask, ReactJS</span><span class="value-right">75%</span></h3>
 						<div class="progress">
 						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
 						  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:75%">
